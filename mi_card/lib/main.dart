@@ -1,16 +1,16 @@
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(MyCardApp());
+  runApp(MiCardApp());
 }
+  
 
-class MyCardApp extends StatelessWidget {
+class MiCardApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
         backgroundColor: Colors.teal,
-        body: Container(),
       ),
     );
   }
