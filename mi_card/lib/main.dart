@@ -22,9 +22,20 @@ class MiCardApp extends StatelessWidget {
               Text(
                 'Jonathan Lemanski',
                 style: TextStyle(
+                  fontFamily: 'Pacifico',
                   fontSize: 40.0,
                   fontWeight: FontWeight.bold,
                   color: Colors.white,
+                ),
+              ),
+              Text(
+                'Mobile App Developer',
+                style: TextStyle(
+                  fontFamily: 'Source Sans Pro',
+                  fontWeight: FontWeight.bold,
+                  color: Colors.teal[100],
+                  letterSpacing: 2.5,
+            
                 ),
               ),
 
