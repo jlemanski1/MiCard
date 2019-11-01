@@ -1,4 +1,4 @@
-package com.example.mi_card
+package tech.jlemanski.mi_card
 
 import android.os.Bundle
 
