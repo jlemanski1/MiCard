@@ -6,10 +6,13 @@ void main() {
 
 class MiCardApp extends StatefulWidget {
   @override
-  MiCardAppState createState() => MiCardAppState();
+  _MiCardAppState createState() => _MiCardAppState();
 }
 
-class MiCardAppState extends State<MiCardApp> {
+class _MiCardAppState extends State<MiCardApp> {
+  String name = '';
+  String profession = '';
+
 
   @override
   void initState() {
@@ -114,13 +117,20 @@ class MiCardAppState extends State<MiCardApp> {
               padding: EdgeInsets.all(5.0),
               alignment: Alignment(1.0, 1.0),
               child: FloatingActionButton(
+                mini: true,
                 backgroundColor: Colors.teal,
                 child: Icon(
                   Icons.settings,
                   color: Colors.teal[900],
                   ),
                 onPressed: () {
-
+                  showModalBottomSheet(context: context, builder: (builder) {
+                    return Column(
+                      children: <Widget>[
+                        
+                      ],
+                    );
+                  });
                 },
               ),
             ),
